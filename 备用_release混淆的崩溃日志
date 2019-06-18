@@ -1,0 +1,14 @@
+06-18 09:16:21.506 31302-31302/com.example.myapplication3 E/AndroidRuntime: FATAL EXCEPTION: main
+    Process: com.example.myapplication3, PID: 31302
+    java.lang.ArithmeticException: divide by zero
+        at c.a.a.a.a(:9)
+        at c.a.a.b.onClick(:19)
+        at android.view.View.performClick(View.java:5272)
+        at android.view.View$PerformClick.run(View.java:21559)
+        at android.os.Handler.handleCallback(Handler.java:815)
+        at android.os.Handler.dispatchMessage(Handler.java:104)
+        at android.os.Looper.loop(Looper.java:205)
+        at android.app.ActivityThread.main(ActivityThread.java:5814)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:806)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:696)
